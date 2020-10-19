@@ -1,0 +1,23 @@
+@import "../../../../styles/common";
+
+.Delete, .Cancel {
+  @include flashyButton;
+  background-image: linear-gradient(to right, #ff7875, #f5222d, #ff7875, #f5222d);
+  width: 60px;
+  &:hover {
+    @include flashyButtonHover;
+  }
+}
+
+.Start, .Complete {
+  @include flashyButton;
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+  width: 60px;
+  &:hover {
+    @include flashyButtonHover;
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+  }
+}
+.Complete {
+  width: 90px;
+}
