@@ -1,4 +1,4 @@
-import actionTypes from './taskActionTypes';
+import actionTypes from './TaskActionTypes';
 import TaskStatus from '../../services/Tasks/TaskStatus';
 
 const initialState = {

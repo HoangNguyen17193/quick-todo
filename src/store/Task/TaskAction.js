@@ -1,4 +1,4 @@
-import actionTypes from './taskActionTypes';
+import actionTypes from './TaskActionTypes';
 
 export const addTask = (title) => {
     return {

@@ -1,8 +1,8 @@
 import axios from 'axios';
 import {put, takeLatest, select} from 'redux-saga/effects';
 
-import {startSaveTasks, saveTaskFail, saveTaskSuccess} from "./taskAction";
-import actionTypes from './taskActionTypes';
+import {startSaveTasks, saveTaskFail, saveTaskSuccess} from "./TaskAction";
+import actionTypes from './TaskActionTypes';
 
 const axiosInstance = axios.create({
     baseURL: 'https://react-todo-e217e.firebaseio.com/'
