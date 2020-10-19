@@ -1,0 +1,16 @@
+.Title {
+  float: left;
+}
+.Tasks {
+  margin: 50px auto;
+  height: 100%;
+}
+
+.TasksTable {
+  margin-top: 20px;
+  height: calc(100% - 200px);
+  overflow: auto;
+}
+td.Column {
+  background-color: #fff;
+}
