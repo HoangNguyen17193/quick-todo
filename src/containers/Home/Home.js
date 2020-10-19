@@ -5,7 +5,7 @@ import {CloudUploadOutlined} from '@ant-design/icons'
 
 import Tasks from '../../components/Tasks/Tasks';
 import AddTask from '../../components/Tasks/AddTask/AddTask'
-import {addTask, updateTask, saveTasks} from '../../store/task/taskAction';
+import {addTask, updateTask, saveTasks} from '../../store/Task/TaskAction';
 import TaskCreatorFactory from '../../services/Tasks/TaskCreatorFactory';
 import TaskValidator from '../../services/Tasks/TaskValidator';
 import Spinner from '../../components/Common/Spinner/Spinner';

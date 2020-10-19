@@ -9,8 +9,8 @@ import storage from 'redux-persist/lib/storage';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import rootReducer from './store/rootReducer';
-import rootSaga from './store/rootSaga';
+import rootReducer from './store/RootReducer';
+import rootSaga from './store/RootSaga';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const sagaMiddleware = createSagaMiddleware();
