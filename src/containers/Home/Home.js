@@ -29,13 +29,13 @@ class Home extends Component {
         }
         return <div className={classes.Home}>
             <div className={classes.SaveWrapper}>
-                <Button
-                    className={classes.SaveButton}
-                    onClick={this.props.saveTasks}
-                    icon={<CloudUploadOutlined/>}
-                    type='primary'>
-                    Save data to server
-                </Button>
+                {/*<Button*/}
+                {/*    className={classes.SaveButton}*/}
+                {/*    onClick={this.props.saveTasks}*/}
+                {/*    icon={<CloudUploadOutlined/>}*/}
+                {/*    type='primary'>*/}
+                {/*    Save data to server*/}
+                {/*</Button>*/}
             </div>
 
             <AddTask addTask={this.props.addTask}/>
